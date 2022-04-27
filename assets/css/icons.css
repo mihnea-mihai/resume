@@ -1,0 +1,19 @@
+#email::before {
+    content: "✉️";
+}
+
+#phone::before {
+    content: "📱";
+}
+
+#url::before {
+    content: "🔗";
+}
+
+#location::before {
+    content: "📍";
+}
+
+.extra-inline::before {
+    content: "@";
+}

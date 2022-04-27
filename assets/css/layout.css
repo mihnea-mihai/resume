@@ -1,0 +1,38 @@
+.row,
+.column,
+.phicols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh 1vw;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.phicols > *:nth-child(1) {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.phicols > *:nth-child(2) {
+    flex-grow: 1.618;
+    flex-basis: 0;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.extra-inline {
+    margin-top: auto;
+}
+
+
+/* div > * {
+    vertical-align: middle;
+    text-align: center;
+} */

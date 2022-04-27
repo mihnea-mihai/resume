@@ -1,0 +1,21 @@
+#right {
+    flex-basis: 10rem;
+}
+
+#left {
+    flex-basis: 16.18rem;
+}
+
+#name {
+    font-size: 2em;
+}
+
+#image > img {
+    height: 10rem;
+    width: 10rem;
+}
+
+#work > h1::before {
+    content: "💼";
+    margin-right: 1vw;
+}

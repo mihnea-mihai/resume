@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Resume - {{basics.name}}</title>
+  <link rel="stylesheet" href="assets/css/icons.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/specifics.css">
+  <link rel="stylesheet" href="assets/css/design.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="phicols">
+  <aside id="right">
+    {% include 'basics.html' %}
+  </aside>
+  <main id="left">
+   {% include 'work.html' %}
+  </main>
+</body>
+
+</html>

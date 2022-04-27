@@ -1,0 +1,50 @@
+{% if work|length > 0 %}
+<section id="work" class="column">
+  <h1>Work experience</h1>
+  {% for experience in work %}
+  <article class="column">
+    <header class="row">
+      <h2 class="position">
+        {{ experience.position }}
+      </h2>
+      <div class="extra-inline row">
+        <span class="name">
+          {{ experience.name }}
+        </span>
+        <span class="dates">
+          (
+          <time class="startDate" datetime="{{ experience.startDate }}">
+            {{ experience.startDate }}
+          </time>
+          →
+          {% if experience.endDate %}
+          <time class="endDate" datetime="{{ experience.endDate }}">
+            {{ experience.endDate }}
+          </time>
+          {% else %}
+          <span class="endDate">
+            Present
+          </span>
+          {% endif %}
+          )
+        </span>
+      </div>
+    </header>
+    {% if experience.summary %}
+    <div class="summary">
+     {{ experience.summary }}
+    </div>
+    {% endif %}
+    {% if experience.highlights|length > 0 %}
+    <div class="highlights row">
+     {% for highlight in experience.highlights %}
+       <span class="highlight">
+        {{ highlight }}
+       </span>
+     {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endif %}

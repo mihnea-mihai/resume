@@ -1,0 +1,62 @@
+h1,
+h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+html {
+    background-color: #1a1a1a;
+    color: snow;
+}
+
+.logo img {
+    height: 2em;
+}
+
+address {
+    font-style: unset;
+}
+
+section {
+    padding: 1vh 1vw;
+    border: 3px solid #262626;
+}
+
+div {
+    text-align: justify;
+}
+
+.secondary,
+.extra-inline,
+.summary {
+    color: silver;
+}
+
+.extra-inline>.name {
+    color: snow;
+}
+
+article {
+    padding: 1vh 1vw;
+    border: 2px solid #262626;
+}
+
+.highlight {
+    font-size: 0.9em;
+    padding: 0.25vh 0.25vw;
+    background-color:#212121;
+    border: 1px solid #262626;
+    color: snow;
+}
