@@ -1,29 +1,31 @@
 {% if work|length > 0 %}
-<section id="work" class="column">
-  <h1>Work experience</h1>
+<section id="work">
+  <header>
+    <h2>Work experience</h2>
+  </header>
   {% for experience in work %}
-  <article class="column">
-    <header class="row">
-      <h2 class="position">
+  <article>
+    <header>
+      <h3>
         {{ experience.position }}
-      </h2>
-      <div class="extra-inline row">
-        <span class="name">
+      </h3>
+      <div>
+        <span>
           {{ experience.name }}
         </span>
-        <span class="dates">
+        <span>
           (
-          <time class="startDate" datetime="{{ experience.startDate }}">
+          <time datetime="{{ experience.startDate }}">
             {{ experience.startDate }}
           </time>
           →
           {% if experience.endDate %}
-          <time class="endDate" datetime="{{ experience.endDate }}">
+          <time datetime="{{ experience.endDate }}">
             {{ experience.endDate }}
           </time>
           {% else %}
-          <span class="endDate">
-            Present
+          <span>
+            Ongoing
           </span>
           {% endif %}
           )
@@ -31,14 +33,14 @@
       </div>
     </header>
     {% if experience.summary %}
-    <div class="summary">
+    <p>
      {{ experience.summary }}
-    </div>
+    </p>
     {% endif %}
     {% if experience.highlights|length > 0 %}
-    <div class="highlights row">
+    <div class="flex highlights">
      {% for highlight in experience.highlights %}
-       <span class="highlight">
+       <span>
         {{ highlight }}
        </span>
      {% endfor %}

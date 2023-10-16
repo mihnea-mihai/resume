@@ -1,160 +1,189 @@
 {
-    "basics": {
-      "name": "Mihnea-Lucian Mihai",
-      "label": "Chatbot DevOps Engineer",
-      "image": "https://avatars.githubusercontent.com/u/79657281",
-      "email": "mihnea.mihai@gmx.com",
-      "phone": "+40 744 29 77 44",
-      "url": "",
-      "summary": "I am a Natural Language Processing Master’s student looking for a new opportunity to make use of my strong analytical and problem solving skills. I am a reliable and perseverant team player ambitious to tackle new challenges.",
-      "location": {
-        "address": "",
-        "postalCode": "",
-        "city": "Bucharest",
-        "countryCode": "RO",
-        "region": ""
-      },
-      "profiles": [
-        {
-          "network": "GitHub",
-          "username": "mihnea-mihai",
-          "url": "https://github.com/mihnea-mihai"
-        },
-        {
-          "network": "LinkedIn",
-          "username": "mihnea-lucian-mihai",
-          "url": "https://www.linkedin.com/in/mihnea-lucian-mihai/"
-        }
-      ]
-    },
-    "work": [
-      {
-        "name": "vidaXL",
-        "position": "CS Agent with German",
-        "url": "",
-        "startDate": "2016-12",
-        "endDate": "2017-09",
-        "summary": "I worked as a CS Agent for customers from German-speaking countries",
-        "highlights": [
-          "simultaneously handling phone calls and emails in a non-linear fashion (urgent calls breaking the linear workflow)",
-          "Daylong phone availability"
-        ]
-      },
-      {
-        "name": "Ericsson",
-        "position": "Chatbot DevOps Engineer",
-        "url": "",
-        "startDate": "2021-05",
-        "endDate": "",
-        "summary": "Develop chatbots and work on automations.",
-        "highlights": [
-          "BMC Innovation Suite",
-          "IBM Watson Assistant"
-        ]
-      }
-    ],
-    "volunteer": [
-      {
-        "organization": "Organization",
-        "position": "Volunteer",
-        "url": "https://organization.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Description…",
-        "highlights": [
-          "Awarded 'Volunteer of the Month'"
-        ]
-      }
-    ],
-    "education": [
-      {
-        "institution": "University",
-        "url": "https://institution.com/",
-        "area": "Software Development",
-        "studyType": "Bachelor",
-        "startDate": "2011-01-01",
-        "endDate": "2013-01-01",
-        "score": "4.0",
-        "courses": [
-          "DB1101 - Basic SQL"
-        ]
-      }
-    ],
-    "awards": [
-      {
-        "title": "Award",
-        "date": "2014-11-01",
-        "awarder": "Company",
-        "summary": "There is no spoon."
-      }
-    ],
-    "certificates": [
-      {
-        "name": "Certificate",
-        "date": "2021-11-07",
-        "issuer": "Company",
-        "url": "https://certificate.com"
-      }
-    ],
-    "publications": [
-      {
-        "name": "Publication",
-        "publisher": "Company",
-        "releaseDate": "2014-10-01",
-        "url": "https://publication.com",
-        "summary": "Description…"
-      }
-    ],
-    "skills": [
-      {
-        "name": "Web Development",
-        "level": "Master",
-        "keywords": [
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ]
-      }
-    ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Native speaker"
-      }
-    ],
-    "interests": [
-      {
-        "name": "Wildlife",
-        "keywords": [
-          "Ferrets",
-          "Unicorns"
-        ]
-      }
-    ],
-    "references": [
-      {
-        "name": "Jane Doe",
-        "reference": "Reference…"
-      }
-    ],
-    "projects": [
-      {
-        "name": "Project",
-        "description": "Description…",
-        "highlights": [
-          "Won award at AIHacks 2016"
-        ],
-        "keywords": [
-          "HTML"
-        ],
-        "startDate": "2019-01-01",
-        "endDate": "2021-01-01",
-        "url": "https://project.com/",
-        "roles": [
-          "Team Lead"
-        ],
-        "entity": "Entity",
-        "type": "application"
-      }
-    ]
-  }
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"basics": {
+		"name": "Mihnea Mihai",
+		"label": "Chatbot DevOps",
+		"image": "https://avatars.githubusercontent.com/u/79657281",
+		"email": "mihnea.mihai@gmx.com",
+		"phone": "+40 744 29 77 44",
+		"url": "https://mihnea.mihai.lu",
+		"summary": "Lorem ipsum dolor sit amet. I am relentless, curios, always looking for solutions, discovering new quirks and. I strive to make my life easier, which usually translates to increased efficiency, less is more, simplification, automation",
+		"location": {
+			"address": "",
+			"postalCode": "",
+			"city": "Bucharest",
+			"countryCode": "RO",
+			"region": ""
+		},
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "mihnea-mihai",
+				"url": "https://github.com/mihnea-mihai"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "mihnea-lucian-mihai",
+				"url": "https://www.linkedin.com/in/mihnea-lucian-mihai/"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "Ericsson",
+			"position": "Chatbot DevOps Engineer",
+			"url": "https://www.ericsson.com/en",
+			"startDate": "2021-05",
+			"summary": "Develop chatbots and work on automations. Also quite a lot of lorem ipsum, let us see how far this goes. Itegrations. BMC product, SaaS",
+			"highlights": [
+				"versed in the BMC ecosystem (Innovation Suite, Helix iPaaS, Virtual Agent)",
+				"Built cognitive agents with IBM Watson Assistant",
+				"Postman",
+				"BMC Innovation Suite",
+				"BMC Helix iPaaS",
+				"BMC Virtual Agent"
+			]
+		},
+		{
+			"name": "AVUS România",
+			"position": "Insurance claims handler",
+			"startDate": "2018-09",
+			"endDate": "2021-05",
+			"summary": "I processed raw data exports into relevant reports and visualisations. I improved templates in order to minimise time spent with repetitive tasks and contributed to better defining and adapting the workflow. I also maintained a Wiki for technical and workflow procedures and provided basic technical support and liaised with the IT department in Austria.",
+			"highlights": [
+				"Assistant",
+				"reports",
+				"MS Excel"
+			]
+		},
+		{
+			"name": "European Parliament",
+			"position": "Translation trainee",
+			"url": "https://www.europarl.europa.eu/portal/en",
+			"startDate": "2018-01",
+			"endDate": "2018-06",
+			"summary": "I translated various types of EP documents from EN and DE into RO, juggling with deadlines (both large documents due in two weeks and short, urgent ones due the next day), while also taking into consideration the deadlines of other teams (e.g. revision, postprocessing). I developed my language and translation skills not only through individual work experience, but also through constant feedback from and to my mentor and revisers. I performed terminology mining from parallel corpora based on co-occurrence and updated some entries of the EU's terminology database during a detail-oriented project. Outside my \"normal\" duties I signed up to schedule the language classes for trainees and taught Romanian while also composing a lessons blog for reference.",
+			"highlights": [
+				"part of workflow (preprocessing, postprocessing, revision) + sync",
+				"collaboration"
+			]
+		},
+		{
+			"name": "vidaXL",
+			"position": "CS Agent with German",
+			"url": "https://www.vidaxl.ro/",
+			"startDate": "2016-12",
+			"endDate": "2017-09",
+			"summary": "I worked as a CS Agent for customers from German-speaking countries, simultaneously handling phone calls and emails in a non-linear fashion (urgent calls breaking the linear workflow). Daylong phone availability and high workload during peak season contributed to me acquiring a certain degree of stress management skills. In my quest to optimise my time spent working, I developed a dynamic spreadsheet to automatically compose emails. I also proactively reported a major security breach and revealed a fraudulent customer.",
+			"highlights": [
+				"simultaneously handling phone calls and emails in a non-linear fashion (urgent calls breaking the linear workflow)",
+				"Daylong phone availability",
+				"Fast paced",
+				"MTTR"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "University of Bucharest",
+			"url": "https://nlp.unibuc.ro/",
+			"area": "Computer Science",
+			"studyType": "Master's",
+			"startDate": "2020",
+			"endDate": "2022",
+			"courses": [
+				"Natural Language Processing",
+				"Machine Learning",
+				"Data visualisation"
+			]
+		},
+		{
+			"institution": "University of Konstanz",
+			"url": "https://www.uni-konstanz.de/",
+			"area": "Foreign Languages",
+			"studyType": "Erasmus",
+			"startDate": "2015",
+			"endDate": "2015",
+			"courses": [
+				"Machine Translation"
+			]
+		},
+		{
+			"institution": "University of Bucharest",
+			"url": "https://lls.unibuc.ro/",
+			"area": "Foreign Languages",
+			"studyType": "Bachelor",
+			"startDate": "2013",
+			"endDate": "2016",
+			"courses": [
+				"Translation",
+				"Interpreting"
+			]
+		}
+	],
+	"publications": [
+		{
+			"name": "Automatic Discrimination between Inherited and Borrowed Latin Words in Romance Languages",
+			"publisher": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+			"releaseDate": "2014",
+			"url": "https://aclanthology.org/2021.findings-emnlp.243/",
+			"summary": "In this paper, we address the problem of automatically discriminating between inherited and borrowed Latin words."
+		}
+	],
+	"skills": [
+		{
+			"name": "Web Development",
+			"level": "Master",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"JavaScript"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Romanian",
+			"fluency": "Native"
+		},
+		{
+			"language": "English",
+			"fluency": "Fluent"
+		},
+		{
+			"language": "German",
+			"fluency": "Fluent"
+		},
+		{
+			"language": "French",
+			"fluency": "Beginner"
+		}
+	],
+	"interests": [
+		{
+			"name": "Wildlife",
+			"keywords": [
+				"Ferrets",
+				"Unicorns"
+			]
+		}
+	],
+	"projects": [
+		{
+			"name": "Etyviz",
+			"description": "Etymology visualiser",
+			"highlights": [
+				"Parsing"
+			],
+			"keywords": [
+				"PostgreSQL"
+			],
+			"startDate": "2023",
+			"url": "http://etyviz.mihai.lu/",
+			"roles": [
+				"Team Lead"
+			],
+			"type": "application"
+		}
+	]
+}

@@ -1,38 +1,42 @@
-<section id="basics" class="column">
-  <header class="phicols">
-    <div id="image" class="center">
-      <img src="{{ basics.image }}">
+<section id="basics">
+  <header>
+    <h2>About</h2>
+    <div class="phi">
+      <div class="img-cont">
+        <img src="{{ basics.image }}">
+      </div>
+      <div class="flex column">
+        <span class="xx-large">
+          {{ basics.name }}
+        </span>
+        {% if basics.label %}
+        <span class="x-large">
+          {{ basics.label }}
+        </span>
+        {% endif %}
+      </div>
     </div>
-    <div id="person" class="column center">
-      <span id="name">
-        {{ basics.name }}
-      </span>
-      {% if basics.label %}
-      <span id="label" class="secondary">
-        {{ basics.label }}
-      </span>
-      {% endif %}
-    </div>
+
   </header>
   {% if basics.email or basics.phone or basics.url or basics.location.countryCode %}
-  <address class="row center">
+  <address class="flex">
     {% if basics.email %}
-    <span id="email">
+    <span class="email">
       <a href="mailto:{{ basics.email }}">{{ basics.email }}</a>
     </span>
     {% endif %}
     {% if basics.phone %}
-    <span id="phone">
+    <span class="phone">
       <a href="tel:{{ basics.phone }}">{{ basics.phone }}</a>
     </span>
     {% endif %}
     {% if basics.url %}
-    <span id="url">
-      <a href="{{ basics.url }}">{{ basics.url }}</a>
+    <span class="url">
+      <a href="{{ basics.url }}" target="_blank">{{ basics.url }}</a>
     </span>
     {% endif %}
     {% if basics.location.countryCode %}
-    <span id="location">
+    <span class="location">
       {% if basics.location.city %}
       {{ basics.location.city }},
       {% endif %}
@@ -42,15 +46,15 @@
   </address>
   {% endif %}
   {% if basics.profiles|length > 0 %}
-  <div id="profiles" class="row center">
+  <div class="flex">
     {% for profile in basics.profiles %}
-    <div class="logo">
+    <div>
       <a href="{{ profile.url }}">
         {% if profile.network|lower == "github" %}
-        <img src="https://avatars.githubusercontent.com/u/9919" alt="GitHub logo">
+        <img class="icon" src="https://avatars.githubusercontent.com/u/9919" alt="GitHub logo">
         {% endif %}
         {% if profile.network == "LinkedIn" %}
-        <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg"
+        <img class="icon" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg"
           alt="LinkedIn logo">
         {% endif %}
       </a>
@@ -59,8 +63,8 @@
   </div>
   {% endif %}
   {% if basics.summary %}
-  <div id="summary" class="secondary">
+  <p>
     {{ basics.summary }}
-  </div>
+  </p>
   {% endif %}
 </section>
