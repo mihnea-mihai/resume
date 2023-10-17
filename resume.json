@@ -2,18 +2,15 @@
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 		"name": "Mihnea Mihai",
-		"label": "Chatbot DevOps",
+		"label": "Chatbot Developer",
 		"image": "https://avatars.githubusercontent.com/u/79657281",
 		"email": "mihnea.mihai@gmx.com",
 		"phone": "+40 744 29 77 44",
 		"url": "https://mihnea.mihai.lu",
-		"summary": "Lorem ipsum dolor sit amet. I am relentless, curios, always looking for solutions, discovering new quirks and. I strive to make my life easier, which usually translates to increased efficiency, less is more, simplification, automation",
+		"summary": "I have explored languages, countries and industries to become a reliable developer boasting a strong simplification mindset. I ask questions and question everything to untangle the chaos and connect the dots. I bring unorthodox solutions and an unwavering team spirit.",
 		"location": {
-			"address": "",
-			"postalCode": "",
 			"city": "Bucharest",
-			"countryCode": "RO",
-			"region": ""
+			"countryCode": "RO"
 		},
 		"profiles": [
 			{
@@ -30,56 +27,58 @@
 	},
 	"work": [
 		{
-			"name": "Ericsson",
+			"name": "Ericsson",	
+			"location": "Bucharest",
 			"position": "Chatbot DevOps Engineer",
 			"url": "https://www.ericsson.com/en",
 			"startDate": "2021-05",
-			"summary": "Develop chatbots and work on automations. Also quite a lot of lorem ipsum, let us see how far this goes. Itegrations. BMC product, SaaS",
+			"summary": "I am responsible for managing several distinct enterprise chatbots totalling thousands of conversations per day, ensuring their availability within the SLA throughout platform upgrades and constantly implementing and deploying new business demands. I develop automations and full-fledged applications in a SaaS environment with good vendor collaboration and my chatbots incorporate complex business logic and consume several knowledge sources.",
 			"highlights": [
-				"versed in the BMC ecosystem (Innovation Suite, Helix iPaaS, Virtual Agent)",
-				"Built cognitive agents with IBM Watson Assistant",
-				"Postman",
-				"BMC Innovation Suite",
-				"BMC Helix iPaaS",
-				"BMC Virtual Agent"
+				"BMC Helix: Virtual Agent, Innovation Suite, iPaaS, Dashboards",
+				"Extended SaaS branding options using custom CSS",
+				"Enabled business owners to configure their own chatbot via REST API",
+				"IBM Watson: Assistant, Discovery"
 			]
 		},
 		{
 			"name": "AVUS România",
-			"position": "Insurance claims handler",
+			"location": "Bucharest",
+			"position": "International claims handler",
 			"startDate": "2018-09",
 			"endDate": "2021-05",
-			"summary": "I processed raw data exports into relevant reports and visualisations. I improved templates in order to minimise time spent with repetitive tasks and contributed to better defining and adapting the workflow. I also maintained a Wiki for technical and workflow procedures and provided basic technical support and liaised with the IT department in Austria.",
+			"summary": "The role required representing foreign insurers towards the claimants and professional communication with all  parties involved. I collaborated with lawyers to standardize the workflow and define document templates for each scenario. Later I was also tasked with extracting reporting insights for upper management.",
 			"highlights": [
-				"Assistant",
-				"reports",
-				"MS Excel"
+				"Processed raw data exports into relevant reports and visualizations",
+				"MS Excel",
+				"Provided basic technical support",
+				"Cross-domain knowledge (law, insurance, traffic)"
 			]
 		},
 		{
 			"name": "European Parliament",
+			"location": "Luxembourg",
 			"position": "Translation trainee",
 			"url": "https://www.europarl.europa.eu/portal/en",
 			"startDate": "2018-01",
 			"endDate": "2018-06",
-			"summary": "I translated various types of EP documents from EN and DE into RO, juggling with deadlines (both large documents due in two weeks and short, urgent ones due the next day), while also taking into consideration the deadlines of other teams (e.g. revision, postprocessing). I developed my language and translation skills not only through individual work experience, but also through constant feedback from and to my mentor and revisers. I performed terminology mining from parallel corpora based on co-occurrence and updated some entries of the EU's terminology database during a detail-oriented project. Outside my \"normal\" duties I signed up to schedule the language classes for trainees and taught Romanian while also composing a lessons blog for reference.",
+			"summary": "I translated various types of EP documents from English and German into Romanian, prioritizing based on deadline and complexity. Based on co-occurrence, I also performed terminology mining from parallel corpora.",
 			"highlights": [
-				"part of workflow (preprocessing, postprocessing, revision) + sync",
-				"collaboration"
+				"Constant feedback to and from mentor and revisers",
+				"Updated the EU's terminology database",
+				"Taught Romanian for foreigners"
 			]
 		},
 		{
 			"name": "vidaXL",
-			"position": "CS Agent with German",
+			"location": "Bucharest",
+			"position": "Customer Support Agent with German",
 			"url": "https://www.vidaxl.ro/",
 			"startDate": "2016-12",
 			"endDate": "2017-09",
-			"summary": "I worked as a CS Agent for customers from German-speaking countries, simultaneously handling phone calls and emails in a non-linear fashion (urgent calls breaking the linear workflow). Daylong phone availability and high workload during peak season contributed to me acquiring a certain degree of stress management skills. In my quest to optimise my time spent working, I developed a dynamic spreadsheet to automatically compose emails. I also proactively reported a major security breach and revealed a fraudulent customer.",
+			"summary": "I handled customers from German-speaking countries via email and phone and acquired time management skills due to  the high workload during peak season. I also designed a dynamic spreadsheet to automatically compose emails.",
 			"highlights": [
-				"simultaneously handling phone calls and emails in a non-linear fashion (urgent calls breaking the linear workflow)",
-				"Daylong phone availability",
-				"Fast paced",
-				"MTTR"
+				"Proactive: revealed a fraudulent customer",
+				"Meet KPIs and SLAs"
 			]
 		}
 	],
@@ -164,7 +163,8 @@
 			"name": "Wildlife",
 			"keywords": [
 				"Ferrets",
-				"Unicorns"
+				"Unicorns",
+				"babywearing"
 			]
 		}
 	],
