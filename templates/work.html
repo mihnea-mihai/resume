@@ -5,45 +5,41 @@
   </header>
   {% for experience in work %}
   <article>
-    <header>
+    <header class="flex">
+      <span class="pill">
+        <time datetime="{{ experience.startDate }}">
+          {{ experience.startDate }}
+        </time>
+        →
+        {% if experience.endDate %}
+        <time datetime="{{ experience.endDate }}">
+          {{ experience.endDate }}
+        </time>
+        {% else %}
+        <span>
+          Ongoing
+        </span>
+        {% endif %}
+      </span>
       <h3>
         {{ experience.position }}
       </h3>
-      <div>
-        <span>
-          {{ experience.name }}
-        </span>
-        <span>
-          (
-          <time datetime="{{ experience.startDate }}">
-            {{ experience.startDate }}
-          </time>
-          →
-          {% if experience.endDate %}
-          <time datetime="{{ experience.endDate }}">
-            {{ experience.endDate }}
-          </time>
-          {% else %}
-          <span>
-            Ongoing
-          </span>
-          {% endif %}
-          )
-        </span>
-      </div>
+      <span>
+        @ {{ experience.name }}, {{ experience.location }}
+      </span>
     </header>
     {% if experience.summary %}
     <p>
-     {{ experience.summary }}
+      {{ experience.summary }}
     </p>
     {% endif %}
     {% if experience.highlights|length > 0 %}
     <div class="flex highlights">
-     {% for highlight in experience.highlights %}
-       <span>
+      {% for highlight in experience.highlights %}
+      <span>
         {{ highlight }}
-       </span>
-     {% endfor %}
+      </span>
+      {% endfor %}
     </div>
     {% endif %}
   </article>

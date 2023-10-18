@@ -2,12 +2,14 @@
     --bgcolor: #FFFFFF;
     --sec-bgcolor: #EFEFEF;
     --tert-bgcolor: #DFDFDF;
+    --quart-bgcolor: #CFCFCF;
     --border-color: #888888;
     --text-color: #101010;
     --olympic-blue: #0081C8;
-    --vertical-gap: 1vh;
-    --horizontal-gap: 1vw;
+    --vertical-gap: 0.5vh;
+    --horizontal-gap: 0.5vw;
     --olympic-green-tamed: #00A65140;
+    --olympic-green-very-tamed: #00A65120;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +22,7 @@
         --text-color: #F8F8F8;
         --olympic-blue: #0081C8;
         --olympic-green-tamed: #00A65130;
+        --olympic-green-very-tamed: #00A65130;
     }
 }
 
@@ -92,6 +95,14 @@ article {
 
 #work h2::before {
     content: "💼";
+}
+
+#skills h2::before {
+    content: "⚝";
+}
+
+#education h2::before {
+    content: "🎓";
 }
 
 h2::before {
@@ -192,11 +203,9 @@ p {
     border-radius: min(1vh, 1vw);
 }
 
-#work header.flex {
+header.flex {
     vertical-align: middle;
     justify-content: start;
-}
-
-#work header.flex > div {
-    vertical-align: middle;
+    align-items: center;
+    gap: 0 1vw;
 }

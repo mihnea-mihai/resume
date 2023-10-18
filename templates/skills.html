@@ -1,0 +1,25 @@
+{% if skills|length > 0 %}
+<section id="skills">
+  <header>
+    <h2>Skills</h2>
+  </header>
+  {% for skill in skills %}
+  <article>
+    <header class="flex">
+      <h3>
+        {{ skill.name }}
+      </h3>
+    </header>
+    {% if skill.keywords|length > 0 %}
+    <div class="flex highlights">
+      {% for keyword in skill.keywords %}
+      <span>
+        {{ keyword }}
+      </span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endif %}

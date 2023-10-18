@@ -1,0 +1,44 @@
+{% if education|length > 0 %}
+<section id="education">
+  <header>
+    <h2>Education</h2>
+  </header>
+  {% for edu in education %}
+  <article>
+    <header class="flex">
+      <span class="pill">
+        <time datetime="{{ edu.startDate }}">
+          {{ edu.startDate }}
+        </time>
+        →
+        {% if edu.endDate %}
+        <time datetime="{{ edu.endDate }}">
+          {{ edu.endDate }}
+        </time>
+        <span>( {{ edu.studyType }} )</span>
+        {% else %}
+        <span>
+          Ongoing
+        </span>
+        {% endif %}
+      </span>
+      <h3>
+        {{ edu.area }}
+      </h3>
+      <span>
+        @ <a href="{{ edu.url }}">{{ edu.institution }}</a>
+      </span>
+    </header>
+    {% if edu.courses|length > 0 %}
+    <div class="flex highlights">
+      {% for course in edu.courses %}
+      <span>
+        {{ course }}
+      </span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endif %}

@@ -1,0 +1,14 @@
+{% if languages|length > 0 %}
+<section id="languages">
+  <header>
+    <h2>Languages</h2>
+  </header>
+  <div class="flex highlights">
+    {% for lang in languages %}
+    <span>
+      {{ lang.language }} : {{ lang.fluency }}
+    </span>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

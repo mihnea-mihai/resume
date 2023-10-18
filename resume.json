@@ -27,7 +27,7 @@
 	},
 	"work": [
 		{
-			"name": "Ericsson",	
+			"name": "Ericsson",
 			"location": "Bucharest",
 			"position": "Chatbot DevOps Engineer",
 			"url": "https://www.ericsson.com/en",
@@ -41,7 +41,7 @@
 			]
 		},
 		{
-			"name": "AVUS România",
+			"name": "AVUS",
 			"location": "Bucharest",
 			"position": "International claims handler",
 			"startDate": "2018-09",
@@ -61,7 +61,7 @@
 			"url": "https://www.europarl.europa.eu/portal/en",
 			"startDate": "2018-01",
 			"endDate": "2018-06",
-			"summary": "I translated various types of EP documents from English and German into Romanian, prioritizing based on deadline and complexity. Based on co-occurrence, I also performed terminology mining from parallel corpora.",
+			"summary": "I translated various types of EP documents from English and German into Romanian, prioritizing based on deadline and complexity. I also performed co-occurrence terminology mining from parallel corpora.",
 			"highlights": [
 				"Constant feedback to and from mentor and revisers",
 				"Updated the EU's terminology database",
@@ -87,13 +87,13 @@
 			"institution": "University of Bucharest",
 			"url": "https://nlp.unibuc.ro/",
 			"area": "Computer Science",
-			"studyType": "Master's",
+			"studyType": "MS",
 			"startDate": "2020",
 			"endDate": "2022",
 			"courses": [
 				"Natural Language Processing",
 				"Machine Learning",
-				"Data visualisation"
+				"Data visualization"
 			]
 		},
 		{
@@ -111,7 +111,7 @@
 			"institution": "University of Bucharest",
 			"url": "https://lls.unibuc.ro/",
 			"area": "Foreign Languages",
-			"studyType": "Bachelor",
+			"studyType": "BA",
 			"startDate": "2013",
 			"endDate": "2016",
 			"courses": [
@@ -132,11 +132,20 @@
 	"skills": [
 		{
 			"name": "Web Development",
-			"level": "Master",
 			"keywords": [
 				"HTML",
 				"CSS",
-				"JavaScript"
+				"JS",
+				"Python",
+				"PostgreSQL"
+			]
+		},
+		{
+			"name": "Software & Frameworks",
+			"keywords": [
+				"IBM Watson",
+				"BMC Helix",
+				"Graphviz"
 			]
 		}
 	],
